@@ -34,7 +34,8 @@ public class WhereInTheWorld implements CommandExecutor {
             {
                 // Showing current player's world
                 String currentWorld = player.getWorld().getName();
-                message = plugin.getConfig().getString("whereintheworld.world").replace("%player",player.getName().replace("%world",currentWorld));
+                message = plugin.getConfig().getString("whereintheworld.world").replace("%player",player.getName());
+                message = message.replace("%world",currentWorld);
                 message = plugin.replaceColorMacros(message);
                 player.sendMessage(message);
             }

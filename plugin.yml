@@ -1,5 +1,5 @@
 name: OrphanageRules
-main: orphanage.orphanagerules
+main: orphanage.orphanagerules.OrphanageRules
 description: Display rules for each world
 version: 0.1
 commands:
@@ -14,4 +14,4 @@ commands:
    whereintheworld:
       description: Show Player's world currently in
       usage: /whereintheworld [<playername>]
-      permission: OrphanageRules.whereintheworld
+      #permission: OrphanageRules.whereintheworld

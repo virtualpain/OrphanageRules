@@ -35,6 +35,6 @@ motd:
 - '&2[&Chttp://Orphanage.DynDNS.info&2]'
 - '&r*** Please read the rules by typing &g/rules &r***'
 
-whatintheworld
-    world: %player currently in %world
-    noplayer: %player is offline or not exists!
+whereintheworld:
+    world: "%player currently in %world"
+    noplayer: "%player is offline or not exists!"
