@@ -1,5 +1,5 @@
 name: OrphanageRules
-main: virtualpain.orphanagerules.OrphanageRules
+main: orphanage.orphanagerules
 description: Display rules for each world
 version: 0.1
 commands:
