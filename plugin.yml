@@ -1,7 +1,8 @@
 name: OrphanageRules
 main: orphanage.orphanagerules.OrphanageRules
 description: Display rules for each world
-version: 0.1
+authors: [odiumxxx,virtualpain]
+version: 0.1.1
 commands:
    rules:
       description: Show rules of current world
@@ -15,3 +16,4 @@ commands:
       description: Show Player's world currently in
       usage: /whereintheworld [<playername>]
       #permission: OrphanageRules.whereintheworld
+      aliases: [world]

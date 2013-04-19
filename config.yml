@@ -36,5 +36,5 @@ motd:
 - '&r*** Please read the rules by typing &g/rules &r***'
 
 whereintheworld:
-    world: "%player currently in %world"
-    noplayer: "%player is offline or not exists!"
+    world: "&Y%player&2 currently in &c%world&2"
+    noplayer: "&Y%player&2 is offline or not exists!"

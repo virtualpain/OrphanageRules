@@ -48,12 +48,14 @@ public class WhereInTheWorld implements CommandExecutor {
             {
                 message = plugin.getConfig().getString("whereintheworld.noplayer");
                 message = message.replace("%player",args[0]);
+                message = plugin.replaceColorMacros(message);
                 sender.sendMessage(message);
             }
             else
             {
                 message = plugin.getConfig().getString("whereintheworld.world");
                 message = message.replace("%player",target.getName()).replace("%world", target.getWorld().getName() );
+                message = plugin.replaceColorMacros(message);
                 sender.sendMessage(message);
                 
             }
